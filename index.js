@@ -77,7 +77,7 @@ app.get("/pergunta/:id", (req, res) => {
             res.send("ERROR");
         });
 });
-app.post("/responder", (res, req) => {
+app.post("/responder", (req, res) => {
     var corpo = req.body.corpo;
     var pergunta = req.body.pergunta;
 
